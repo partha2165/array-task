@@ -31,6 +31,10 @@ const nul = '[]'
 console.log(Array.isArray(nul));
 
 // Task 5
+const coffe = ['Americano', 'Cappuccino', 'Caffe mocha', 'Doppio'];
+const price = [1000, 2000, 1500, 1800];
+const coffePrice = coffe.concat(price);
+console.log(coffePrice);
 
 
 
